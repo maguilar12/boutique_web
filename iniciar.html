@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PoshBoutique</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stiles.css"> 
+</head>
+
+<body>
+    <script src="form.js"></script>
+    <header class="header-p cotenedor">
+        <div class="contenedores">
+            <img class="imagen" src="img/logo.png" alt="Logotipo">
+            <h3 class="texto">Ninguna mujer sabe lo que quiere hasta que lo ve en posh boutique</h3>
+        </div>
+    </header>
+    <nav class="navegacion">
+        <div class="caja-nav"><a href="registrarse.html" class="btnav">Registrarse</a>
+            <a href="iniciar.html" class="btnav">Iniciar Secion</a>
+            <a href="verproduc.html" class="btnav">Ver Producto</a>
+            <a href="quienesomos.html" class="btnav">Historia</a>
+            <a href="index.html" class="btnav">Inicio</a>
+
+        </div>
+    </nav>
+    <form class="form" name="miFormulario" action="mailto:mau12gd@gmail.com" onSubmit="return valida(this);">
+       <fieldset class="contenedor-formulario">
+        <legend>Iniciar seccion</legend>
+        <label for="fname">Usuario</label><p></p>
+         Usuario   <input type="text" name="campo1" placeholder="Usuario"><br><br>
+        Password  <input type="password" name="campo2" placeholder="Password"><br>
+        <input type="submit" value="enviar" name="enviar" class="pure-button pure-button-primary">
+        </fieldset>
+    </form>
+    <footer class="cont-footer">
+        <div class="contenedores-fooder">
+            <div class="seccion-footer">
+                <a><img src="img/whatsapp.png" width="40" height="40" alt="whatsapp"></a>
+                <a><img src="img/face.png" width="40" height="40" alt="facebook"></a>
+                <a><img src="img/insta.png" width="40" height="40" alt="instagram"></a>
+                <p class="copyright">Todos los derechos reservados 2020 Gladis Aguilar &copy;</p>
+            </div>
+        </div>
+
+    </footer>
+</body>
+
+</html>

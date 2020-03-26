@@ -1,0 +1,106 @@
+.texto {
+  background-color: azure;
+  color: #133305; }
+
+.texto {
+  justify-content: center;
+  margin: -7rem 1rem 0 7rem;
+  text-align: center;
+  font-size: 3rem; }
+
+.header-p {
+  width: 100%;
+  background-color: green;
+  padding: 0.2rem; }
+
+/*animacion de imagen se hace mas grande*/
+#di {
+  transition: width 2s, height 2s, transform 1s;
+  /*especifica el tiempo de transicion y es tiempo de su tranformacion*/
+  transition-delay: 1s;
+  /*especifica dos 2s de retraso para que espiese la animacion*/ }
+
+#di:hover {
+  width: 250px;
+  height: 250px; }
+
+/*animacion del footer*/
+#dir {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  animation-name: colores;
+  animation-duration: 4s;
+  border-radius: 0.5rem;
+  animation-iteration-count: infinite; }
+
+@keyframes colores {
+  0% {
+    background-color: red; }
+  25% {
+    background-color: yellow; }
+  50% {
+    background-color: blue; }
+  100% {
+    background-color: green; } }
+/*animacion del logo*/
+.imagen {
+  position: relative;
+  animation-name: image;
+  animation-duration: 4s;
+  animation-direction: reverse;
+  justify-content: flex-end;
+  margin-top: -3rem;
+  margin-left: 0.1rem;
+  width: 15rem;
+  height: 12rem;
+  animation-iteration-count: infinite; }
+
+@keyframes image {
+  0% {
+    left: 0px;
+    top: 0px; }
+  25% {
+    left: 3px;
+    top: 0px; }
+  50% {
+    left: 3px;
+    top: 3px; }
+  75% {
+    left: 0px;
+    top: 3px; }
+  100% {
+    left: 0px;
+    top: 0px; } }
+/*animacion de ofretas*/
+#dirs {
+  position: relative;
+  animation-name: images;
+  animation-duration: 4s;
+  animation-direction: reverse;
+  justify-content: flex-end;
+  animation-iteration-count: 5; }
+
+@keyframes images {
+  0% {
+    background-color: aqua;
+    left: 0px;
+    top: 0px; }
+  25% {
+    background-color: fuchsia;
+    left: 60px;
+    top: 0px; }
+  50% {
+    background-color: orange;
+    left: 60px;
+    top: 60px; }
+  75% {
+    background-color: turquoise;
+    left: 0px;
+    top: 60px; }
+  100% {
+    background-color: green;
+    left: 0px;
+    top: 0px; } }
+
+/*# sourceMappingURL=style.css.map */

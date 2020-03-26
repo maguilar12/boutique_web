@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PoshBoutique</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stiles.css">
+     <link rel="stylesheet" href="css/style.css">
+     
+</head>
+
+<body>
+    <script src="/mipagina1/JS/sliderss.js"></script>
+     <div class="header-p cotenedor col-12">
+        <div class="contenedores col-12 ">
+            <img class="imagen " src="img/logo.png" alt="Logotipo">
+            <h3 class="texto">Ninguna mujer sabe lo que quiere hasta que lo ve en posh boutique</h3>
+        </div>
+    </div>
+    <nav class="navegacion col-12">
+        <div class="caja-nav col">
+           <a href="registrarse.html" class="btnav">Registrarse</a>
+            <a href="iniciar.html" class="btnav">Iniciar Secion</a>
+            <a href="verproduc.html" class="btnav">Ver Producto</a>
+            <a href="quienesomos.html" class="btnav">Historia</a>
+
+        </div>
+    </nav>
+
+    <section class="contenedor-seccion col-12">
+        <div class="contenedores-seccion  col-12">
+            <div id="mensaje" class="mensaj"></div>
+            <script>
+                var nombre = prompt("¿Cual es tu nombre? ", "");
+                document.getElementById('mensaje').innerHTML = '"Bienvenido a la pagina ' + ' ' + nombre+'"';
+
+            </script>
+            
+            <div class="div-cont-secc col-12">
+                <div class="caja col-3" style="margin: auto">
+                    <h2>¿Que te ofrecemos?</h2>
+                    <p style="font-size:2rem;">Contamos con una gama de diversidad de productos de la mejor variedad, calidad para que nuestros clientes luscan la mejor calidad de productos al alcanse de tu bolsillo</p>
+                    <button class="button"><a href="verproduc.html" style="text-decoration:none">Ver productos</a></button>
+                </div>
+                <div class="caj col-4" >
+                    <a><img src="img/logo.png" alt="Logotipo"></a>
+                </div>
+                <div class="caja col-3" style="margin:auto" >
+                    <h2>¿Quienes somos?</h2>
+                    <p style="font-size:2rem;"> "somo una boutique segura que busca Satisfacer
+                        a todos sus clientes en la realizacion de sus compras,
+                        que sean únicas de calidad, variedad, precio y servicio,
+                        basada en la atención y la seguridad."
+                        manejamos precios accesibles, productos de calidad </p>
+                    <button class="button"> <a href="quienesomos.html" style="text-decoration:none">Más información.</a></button>
+                </div>
+                <div class="sliders" style="width: 100%; justify-content: center; text-align: center;">
+                    <img name="slider" width="70%" height="300">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="cont-footer">
+        <div class="contenedores-fooder">
+            <div class="seccion-footer">
+                <a><img src="img/whatsapp.png" width="40" height="40" alt="whatsapp"></a>
+                <a><img src="img/face.png" width="40" height="40" alt="facebook"></a>
+                <a><img src="img/insta.png" width="40" height="40" alt="instagram"></a>
+                <p class="copyright">Todos los derechos reservados 2020 Gladis Aguilar &copy;</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
